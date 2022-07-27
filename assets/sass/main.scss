@@ -1845,6 +1845,7 @@ ul.social {
       color: #d52349;
     }
     .list-svg {
+      width: 70px;
       filter: brightness(0) saturate(100%) invert(33%) sepia(15%) saturate(12%)
         hue-rotate(29deg) brightness(103%) contrast(88%);
       transition-duration: 200ms;
