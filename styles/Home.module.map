@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "Home.module.css",
+	"sources": [
+		"scss/Home.module.scss"
+	],
+	"sourcesContent": [
+		".blueText {\r\n  color: blue;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,SAAS,CAAC;EACR,KAAK,EAAE,IAAI;CACZ"
+}
