@@ -1069,10 +1069,10 @@ ul.social {
 /* Banner */
 
 #banner {
-  background: #cce8f4 url('../../images/pic01.jpg');
+  background: #cce8f4 url('../../images/headshot.png');
   background-position: center center;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
+  background-size: contain;
+  // background-repeat: no-repeat;
   text-align: center;
   position: relative;
   padding: 8em 0;
