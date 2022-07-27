@@ -1077,7 +1077,8 @@ ul.social {
   position: relative;
   padding: 8em 0;
   margin: 4em 0 0 0;
-
+  //   border: 3px solid red;
+  //   height: 100vh;
   header {
     background-color: rgba(34, 30, 31, 0.98);
     display: inline-block;
@@ -1789,6 +1790,7 @@ ul.social {
   /* Banner */
 
   #banner {
+    // border: 3px solid red;
     padding: 6em 0;
     margin: 2em 0 0 0;
 
