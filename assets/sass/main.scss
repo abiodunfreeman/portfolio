@@ -1853,3 +1853,20 @@ ul.social {
     }
   }
 }
+#about-me {
+  //   border: 3px solid blue;
+  .head-about {
+    // border: 3px solid red;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    div {
+      top: 50%;
+      left: 20%;
+      position: absolute;
+      justify-self: center;
+      border-bottom: 1.5px solid black;
+      width: 90%;
+    }
+  }
+}
