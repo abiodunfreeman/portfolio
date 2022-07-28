@@ -497,6 +497,7 @@ footer {
   padding: 2.75em 1.75em 2.75em 1.75em;
 
   .image {
+    transition-duration: 450ms;
     &.featured {
       position: relative;
       width: auto;
@@ -505,7 +506,9 @@ footer {
       margin: -4.5em 0 4.25em -3.5em;
     }
   }
-
+  .image:hover {
+    transform: scale(1.1);
+  }
   &.post {
     header {
       padding-top: 1em;
@@ -961,9 +964,8 @@ ul.social {
   position: relative;
   background: #ffffff;
   border-bottom: solid 1px #ccc;
-  padding: 5em 0 4em 0;
   text-align: center;
-
+  // border: 4px solid red;
   h1 {
     color: #252122;
     font-weight: 900;
@@ -1076,11 +1078,11 @@ ul.social {
   text-align: center;
   position: relative;
   padding: 8em 0;
-  margin: 4em 0 0 0;
+  margin: 0 0 0 0;
   //   border: 3px solid red;
   //   height: 100vh;
   header {
-    background-color: rgba(34, 30, 31, 0.98);
+    background-color: rgba(34, 30, 31, 0.9);
     display: inline-block;
     padding: 2.5em 5em;
     border-radius: 5px;
@@ -1107,7 +1109,10 @@ ul.social {
 #intro {
   text-align: center;
   overflow: hidden;
-
+  // border: 3px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   section {
     margin: 3em 0;
     padding: 2.5em 0;
@@ -1857,19 +1862,43 @@ ul.social {
   }
 }
 #about-me {
-  //   border: 3px solid blue;
+  // border: 3px solid blue;
+  max-width: 700px;
+  text-align: left;
+  padding: 2rem;
   .head-about {
     // border: 3px solid red;
-    padding: 10px;
+    // padding: 10px;
     display: flex;
     position: relative;
-    div {
-      top: 50%;
-      left: 20%;
-      position: absolute;
-      justify-self: center;
-      border-bottom: 1.5px solid black;
-      width: 90%;
+    #c {
+      // border: 3px solid blue;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding-left: 10px;
+      #i {
+        border-bottom: 1px solid black;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 736px) {
+  #banner {
+    background-size: cover;
+  }
+}
+.box {
+  footer {
+    // border: 3px solid red;
+
+    li {
+      a:first-child {
+        // border: 3px solid blue;
+        margin-bottom: 5px;
+      }
     }
   }
 }
