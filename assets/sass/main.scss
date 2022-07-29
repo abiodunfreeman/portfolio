@@ -497,7 +497,7 @@ footer {
   padding: 2.75em 1.75em 2.75em 1.75em;
 
   .image {
-    transition-duration: 450ms;
+    transition-duration: 4500ms;
     &.featured {
       position: relative;
       width: auto;
@@ -1312,14 +1312,14 @@ ul.social {
   /* Header */
 
   #header {
-    padding: 4em 0 3em 0;
+    padding: 0em 0 3em 0;
   }
 
   /* Banner */
 
   #banner {
     padding: 6em 0;
-    margin: 3em 0 0 0;
+    margin: 0em 0 0 0;
   }
 
   /* Intro */
@@ -1412,7 +1412,7 @@ ul.social {
   /* Header */
 
   #header {
-    padding: 3.5em 0 3em 0;
+    padding: 0em 0 3em 0;
   }
 
   /* Nav */
@@ -1767,7 +1767,7 @@ ul.social {
 
   #header {
     text-align: center;
-    padding: 2em 0;
+    padding: 0em 0;
 
     h1 {
       color: #252122;
@@ -1797,7 +1797,7 @@ ul.social {
   #banner {
     // border: 3px solid red;
     padding: 6em 0;
-    margin: 2em 0 0 0;
+    margin: 0em 0 0 0;
 
     header {
       padding: 1.5em 1em 1.5em 1em;
@@ -1885,9 +1885,12 @@ ul.social {
   }
 }
 
-@media (max-width: 736px) {
+@media (max-width: 640px) {
   #banner {
     background-size: cover;
+    background-position: center bottom;
+    // background-color: white;
+    background-repeat: no-repeat;
   }
 }
 .box {
