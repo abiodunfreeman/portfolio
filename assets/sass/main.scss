@@ -495,8 +495,13 @@ footer {
   background: #ffffff;
   border-bottom: solid 1px #ccc;
   padding: 2.75em 1.75em 2.75em 1.75em;
-  height: 700px;
-  border: 3px solid red;
+  height: 750px;
+  // max-width: 380px;
+  // border: 3px solid red;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  // justify-content: space-evenly;
   header {
     text-align: center;
   }
@@ -533,13 +538,22 @@ footer {
   }
 
   footer {
+    // justify-self: flex-end;
+    // border: 3px solid red;
+    position: absolute;
+    bottom: 2vh;
+
     ul.actions {
       margin-bottom: 0;
+      li {
+        display: flex;
+        gap: 10px;
+      }
     }
   }
 }
 .box > * {
-  border: 3px solid blue;
+  // border: 3px solid blue;
 }
 /* Button */
 
@@ -1890,7 +1904,10 @@ ul.social {
     }
   }
 }
-
+header.skills-intro {
+  // border: 3px solid blue;
+  padding-top: 20px;
+}
 @media (max-width: 640px) {
   #banner {
     background-size: cover;
