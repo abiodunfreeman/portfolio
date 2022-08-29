@@ -1415,7 +1415,7 @@ ul.social {
       ul.actions {
         li {
           margin: 1em 0 0 0;
-          display: block;
+          // display: block;
 
           .button {
             width: 100%;
@@ -1920,21 +1920,6 @@ header.skills-intro {
     background-repeat: no-repeat;
   }
 }
-.box {
-  footer {
-    // border: 3px solid red;
-
-    li {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      a {
-        // border: 3px solid blue;
-        margin-bottom: 5px;
-      }
-    }
-  }
-}
 
 #form-container {
   background-color: white;
@@ -1999,6 +1984,30 @@ header.skills-intro {
     }
   }
 }
+#port-row {
+  .box {
+    // border: 5px solid purple;
+    footer {
+      // border: 3px solid red;
+      width: 90%;
+      // margin: 0 auto;
+      li {
+        // border: 5px solid green;
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+        // align-items: center;
+        // margin: 10px;
+        // padding: 10px;
+        a {
+          // border: 3px solid blue;
+          // margin-bottom: 5px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
 @media (max-width: 740px) {
   #form-container {
     background-color: white;
@@ -2046,6 +2055,19 @@ header.skills-intro {
       .form-group {
         width: 90vw;
         // border: 5px solid black;
+      }
+    }
+  }
+  #port-row {
+    .box {
+      footer {
+        margin: 0 auto;
+        .actions {
+          li {
+            flex-direction: column;
+            // text-align: center;
+          }
+        }
       }
     }
   }
