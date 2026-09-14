@@ -35,7 +35,7 @@ export function SiteHeader() {
           onClick={() => setMenuOpen(false)}
         >
           <span className="brand-mark">
-            af<span>↗</span>
+            af<span><ArrowUpRight size={16} /></span>
           </span>
           <span className="brand-name">
             Abiodun

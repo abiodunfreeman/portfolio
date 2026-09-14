@@ -1,0 +1,9 @@
+.tools/
+**/node_modules/
+**/dist/
+**/target/
+**/.vercel/
+**/.env*
+!**/.env.example
+*.log
+.DS_Store

@@ -232,14 +232,6 @@ function App() {
                 );
               })}
             </div>
-            <aside className="service-example" aria-label="Example AI application idea">
-              <span className="eyebrow">ONE POSSIBLE BUILD</span>
-              <p>
-                A Cleveland med spa could use an AI chat to answer service questions and
-                let interested visitors leave their contact details for a consultation
-                follow-up—even after the front desk closes.
-              </p>
-            </aside>
             <div className="process-layout">
               <div>
                 <span className="eyebrow">CLEAR COMMUNICATION. SHARED PROGRESS.</span>
