@@ -1,0 +1,56 @@
+﻿Abiodun Freeman
+Senior Software Engineer / Solutions Architect
+	SUMMARY
+Creative and detail-oriented software engineer with a deep interest in AI. Proven track record of building and implementing successful front and back-end web applications using best practices and agile methodologies. Experienced in collaborating with teams to deliver value to stakeholders and developing semantically structured applications. Seeking a challenging role in a company with global reach where I can leverage my skills and experience to contribute to the company's growth
+Software Engineer at Sherwin-Williams | Cleveland, OH
+May 2023— Present
+* Led UI/UX overhauls for enterprise applications using React, TypeScript, and Figma, ensuring pixel-perfect alignment with design specs and stakeholder specifications.
+* Built reusable Micro-Frontends (e.g., tables, forms) with React, Material-UI , Tailwind CSS, reducing development time across the team
+* Implemented responsive design strategies to ensure seamless performance across tablet and desktop devices.
+Software Developer at Comsat Architects, Rocky River, OH   
+January 2022 — April  2023
+* Collaborated with back-end teams to design scalable APIs and resolve cross-functional dependencies using GraphQL.and Postgres
+* Built semantically structured full stack web applications for internal NASA use
+Projects: 
+System Platform for Aggregating and Relating Capabilities  (SPARC) – A web-based application for visualizing and integrating information from multiple sources throughout NASA’s Space Operation and Mission Directorate (SOMD) and NASA’s Office of the Chief Health and Medical Officer (OCHMO), including human space flight standards, exploration program requirements, and human system risks in record time. The goal of the application is to enable insightful access to the information contained within the data, relate the information for use by multiple different stakeholders, and visualize it in a user-friendly way.
+Communications Services Project (CSP) – Evaluate service providers that match a mission's requirements and provide a list of providers that a mission could utilize. Built for NASA’s Commercial Satellite Program. 
+VOLUNTEERING 
+Lead Developer | Annual Cleveland GiveCamp
+2022, 2024, 2025
+* Collaborated with 30+ non-profits to improve website UI, payment processing and user engagement
+* Conducted stakeholder workshops to translate business needs into technical requirements
+	CONTACT
+216.319.8182
+freemanabiodun@gmail.com
+abiodunfreeman.com     
+github.com/abiodunfreeman
+SKILLS
+Frontend Technologies:
+* React / NextJs
+* CSS / Tailwind / SCSS
+* JavaScript / TypeScript
+* Angular / RxJs
+* HTML
+* Web Accessibility
+* UI / UX Design / Figma
+Backend Technologies:
+* Java / Spring / Kotlin 
+* Node / Express
+* Oracle DB / Postgres
+* REST API 
+* GraphQL 
+* Bash Scripting
+Database Technologies:
+* SQL / NoSQL / PLSQL
+* MongoDB
+* PostgreSQL 
+* Oracle / Oracle DB
+DevOps and Cloud:
+* Docker
+* Azure
+* Kubernetes / k8s
+* Jenkins
+EDUCATION
+Kent State 
+2016 - 2020
+Major: Computer Science
