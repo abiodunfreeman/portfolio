@@ -113,7 +113,7 @@ function App() {
             <div className="experience-wordmark givecamp">
               Cleveland
               <span>
-                GiveCamp<span className="accent">✳</span>
+                GiveCamp
               </span>
             </div>
           </div>
