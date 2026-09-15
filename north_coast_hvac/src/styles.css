@@ -146,18 +146,7 @@ h4 {
   object-position: 57% center;
   border-radius: 18px;
 }
-.hero-image::after {
-  content: '';
-  position: absolute;
-  right: -12px;
-  top: 21px;
-  width: 50%;
-  height: 87%;
-  border: 1px solid #a7bdca;
-  border-radius: 17px;
-  z-index: 0;
-  pointer-events: none;
-}
+
 .comfort-card {
   position: absolute;
   left: -26px;
@@ -304,9 +293,7 @@ h4 {
   .hero-location {
     font-size: 9px;
   }
-  .hero-image::after {
-    right: -9px;
-  }
+ 
   .site-header > .MuiButton-root {
     padding: 10px 13px;
     font-size: 12px;

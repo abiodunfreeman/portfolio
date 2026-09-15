@@ -18,7 +18,8 @@ Open the local address printed by Vite. The page updates as you edit the files.
 ## Make it yours
 
 - `src/data/portfolio.ts`: edit the project stories, services, experience, and contact
-  details. Keep claims and links grounded in your actual work.
+  details. The North Coast entries include `liveUrl` links to their deployed
+  front-end demos. Keep claims and links grounded in your actual work.
 - `src/App.tsx`: update the page sections, skills, process copy, and interactions.
 - `src/components/SiteHeader.tsx`: update the header navigation and direct email link.
 - `src/hooks/useCopyEmail.ts`: shared clipboard feedback for both email copy buttons.
@@ -31,9 +32,11 @@ Open the local address printed by Vite. The page updates as you edit the files.
 Fonts are installed locally through Fontsource and bundled by Vite. Visitors do
 not need to fetch fonts from Google Fonts.
 
-The project visuals in `src/components/ProjectVisual.tsx` are original concept
-illustrations, labeled on the page. They communicate the kind of work described
-in the resume and are not screenshots of internal client applications.
+The project visuals in `src/components/ProjectVisual.tsx` and
+`src/components/NorthCoastVisual.tsx` are original concept illustrations, labeled
+on the page. The North Coast cards and project details link to their interactive
+front-end demos. The other illustrations communicate the kind of work described
+in the resume without using screenshots of internal client applications.
 
 The hero sculpture lives in `src/components/OrbitSculpture.tsx`. Visitors can
 pause or play its animation with the button on the sculpture. Animation starts

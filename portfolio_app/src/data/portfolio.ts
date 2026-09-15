@@ -6,7 +6,8 @@ export type Project = {
   title: string;
   summary: string;
   tags: string[];
-  kind: 'enterprise' | 'space' | 'community';
+  kind: 'enterprise' | 'space' | 'community' | 'dashboard' | 'hvac';
+  liveUrl?: string;
   role: string;
   period: string;
   challenge: string;
@@ -25,8 +26,56 @@ export const profile = {
 
 export const projects: Project[] = [
   {
-    id: 'sherwin-williams',
+    id: 'north-coast-dashboard',
     number: '01',
+    category: 'Front-end app · Operations',
+    client: 'North Coast Dashboard',
+    title: 'A clearer view of the working day.',
+    summary:
+      'An interactive HVAC operations dashboard for managing jobs, technician schedules, and customer histories.',
+    tags: ['React', 'TypeScript', 'Material UI', 'Tailwind CSS', 'Vite'],
+    kind: 'dashboard',
+    liveUrl: 'https://northcoastdashboard.vercel.app/',
+    role: 'Front-end development',
+    period: 'Interactive demo',
+    challenge:
+      'Bring the daily work of a home-service business into one workspace, with clear navigation between customer records, scheduled jobs, and performance insights.',
+    contribution: [
+      'Built a responsive React and TypeScript dashboard with Material UI and Tailwind CSS.',
+      'Created searchable customer records, job filters and status updates, and a weekly technician schedule.',
+      'Added a standalone browser demo with sample data so visitors can explore the workflows.',
+    ],
+    outcome:
+      'A hands-on front-end demo for a fictional HVAC business. Explore the workspace and sample records to see how the interface supports day-to-day operations.',
+    outcomeLabel: 'Explore the app',
+  },
+  {
+    id: 'north-coast-hvac',
+    number: '02',
+    category: 'Front-end app · Customer experience',
+    client: 'North Coast Heating & Cooling',
+    title: 'From a service question to the next step.',
+    summary:
+      'A responsive HVAC website with service information, appointment requests, and a conversational assistant.',
+    tags: ['React', 'TypeScript', 'Material UI', 'Tailwind CSS', 'Vite'],
+    kind: 'hvac',
+    liveUrl: 'https://northcoasthvac.vercel.app/',
+    role: 'Front-end development',
+    period: 'Interactive demo',
+    challenge:
+      'Help homeowners understand heating and cooling services, find answers, and request a visit through a clear, approachable website.',
+    contribution: [
+      'Built a responsive multi-page experience with service details, FAQs, and contact information.',
+      'Created a validated appointment-request form with service, date, and time-window selection.',
+      'Integrated Frosty, a conversational assistant for service questions, booking guidance, and callback requests.',
+    ],
+    outcome:
+      'An interactive front-end demo for a fictional Cleveland HVAC company. Booking and callback requests are saved in the browser for demonstration and do not create real appointments.',
+    outcomeLabel: 'Explore the app',
+  },
+  {
+    id: 'sherwin-williams',
+    number: '03',
     category: 'Enterprise applications',
     client: 'Sherwin-Williams',
     title: 'Complex workflows. Clear interfaces.',
@@ -49,7 +98,7 @@ export const projects: Project[] = [
   },
   {
     id: 'nasa-comsat',
-    number: '02',
+    number: '04',
     category: 'Mission information systems',
     client: 'NASA · through Comsat Architects',
     title: 'Making mission data make sense.',
@@ -73,7 +122,7 @@ export const projects: Project[] = [
   },
   {
     id: 'cleveland-givecamp',
-    number: '03',
+    number: '05',
     category: 'Community & nonprofit',
     client: 'Cleveland GiveCamp',
     title: 'Good technology. Greater community.',

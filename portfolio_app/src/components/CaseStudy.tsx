@@ -55,6 +55,17 @@ export function CaseStudy({ project, onClose }: CaseStudyProps) {
             <span>{project.role}</span>
             <span>{project.period}</span>
           </div>
+          {project.liveUrl && (
+            <a
+              className="button button-primary case-live"
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`View live app: ${project.client} (opens in a new tab)`}
+            >
+              View live app <ArrowUpRight size={18} />
+            </a>
+          )}
           <ProjectVisual kind={project.kind} />
           <div className="case-detail">
             <h3>The challenge</h3>
@@ -78,8 +89,9 @@ export function CaseStudy({ project, onClose }: CaseStudyProps) {
             ))}
           </div>
           <p className="case-disclosure">
-            Visuals are original concept illustrations, not screenshots of internal
-            applications.
+            {project.liveUrl
+              ? 'Preview is a concept illustration. Open the live app to explore the interactive demo.'
+              : 'Visuals are original concept illustrations, not screenshots of internal applications.'}
           </p>
           <a
             className="button button-primary"

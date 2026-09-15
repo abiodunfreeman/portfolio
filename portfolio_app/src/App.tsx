@@ -112,9 +112,7 @@ function App() {
             </div>
             <div className="experience-wordmark givecamp">
               Cleveland
-              <span>
-                GiveCamp
-              </span>
+              <span>GiveCamp</span>
             </div>
           </div>
         </div>
@@ -127,7 +125,7 @@ function App() {
           <div className="section-heading">
             <div>
               <p className="eyebrow">
-                <span className="section-number">01 /</span> SELECTED EXPERIENCE
+                <span className="section-number">01 /</span> SELECTED WORK
               </p>
               <h2 id="work-title">
                 Built with purpose<span className="accent">.</span>
@@ -135,7 +133,8 @@ function App() {
             </div>
             <p>
               Complex systems. Clear experiences.
-              <br />A few problems I’ve helped solve.
+              <br />
+              Live apps and problems I’ve helped solve.
             </p>
           </div>
           <div className="projects-grid">
@@ -171,12 +170,25 @@ function App() {
                       <span key={tag}>{tag}</span>
                     ))}
                   </div>
-                  <button
-                    className="project-read text-link"
-                    onClick={() => setActiveProject(project)}
-                  >
-                    Explore the project <ArrowRight size={17} />
-                  </button>
+                  <div className="project-actions">
+                    {project.liveUrl && (
+                      <a
+                        className="project-live text-link"
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`View live app: ${project.client} (opens in a new tab)`}
+                      >
+                        View live app <ArrowUpRight size={17} />
+                      </a>
+                    )}
+                    <button
+                      className="project-read text-link"
+                      onClick={() => setActiveProject(project)}
+                    >
+                      Explore the project <ArrowRight size={17} />
+                    </button>
+                  </div>
                 </div>
               </article>
             ))}

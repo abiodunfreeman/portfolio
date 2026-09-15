@@ -1,12 +1,17 @@
 import { useId } from 'react';
 import { ArrowUpRight, Check, Circle, Command, Layers, Plus } from 'lucide-react';
 import type { Project } from '../data/portfolio';
+import { NorthCoastVisual } from './NorthCoastVisual';
 
 /** Original illustrations communicate the work without exposing internal screens. */
 export function ProjectVisual({ kind }: { kind: Project['kind'] }) {
   const visualId = useId();
   const planetId = `${visualId}-planet`;
   const gridId = `${visualId}-grid`;
+
+  if (kind === 'dashboard' || kind === 'hvac') {
+    return <NorthCoastVisual kind={kind} />;
+  }
 
   if (kind === 'space') {
     return (
